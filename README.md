@@ -20,7 +20,11 @@ Finansal zaman serileri, yüksek volatilite ve karmaşık bağımlılıklar içe
 
 ---
 
-## Kurulum ve Çalıştırma
-### 1. Gerekli Kütüphaneler
+## Kurulum ve Çalıştırma Adımları
+
+Aşağıdaki adımlar, projeyi kendi bilgisayarınızda çalıştırmak için izlenmesi gereken basit yönergeleri içerir.
+
+### Gerekli Kütüphaneleri Yükleyin
+Proje için gerekli Python kütüphanelerini yüklemek üzere terminal veya Anaconda Prompt’a aşağıdaki komutu yazın:
 ```bash
 pip install numpy pandas matplotlib scikit-learn torch torchvision torchaudio seaborn jupyterlab
