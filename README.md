@@ -59,8 +59,8 @@ Her iki model de 10 epoch boyunca eğitilmiş, ardından tahminler görselleşti
 ## Sonuçlar ve Değerlendirme
 - LSTM Modeli MSE: 167.90  
 - GRU Modeli MSE: 115.50  
-- GRU modeli, LSTM’e göre daha düşük hata ile daha iyi performans göstermiştir.  
-- Her iki model de kapanış fiyatlarını başarılı şekilde tahmin etmiştir.  
+GRU modeli, LSTM’e göre daha düşük hata ile daha iyi performans göstermiştir.  
+Her iki model de kapanış fiyatlarını başarılı şekilde tahmin etmiştir.  
 
 ## Grafik Analizi
 Grafiklerde mavi çizgi gerçek fiyatları, yeşil çizgi LSTM tahminlerini, turuncu çizgi ise GRU tahminlerini göstermektedir.
@@ -77,7 +77,7 @@ Sonuçlar, GRU modelinin daha düşük MSE değeriyle LSTM’e göre daha iyi pe
 - GRU MSE ≈ 92.0  
 - LSTM RMSE≈ 12.5  
 - GRU RMSE≈ 9.6  
-- GRU modeli daha hızlı öğrenmiş ve daha düşük hata oranı elde etmiştir.  
+GRU modeli daha hızlı öğrenmiş ve daha düşük hata oranı elde etmiştir.  
 
 ## Geliştirme Önerileri
 -Daha uzun epoch sayısı ile modellerin performansı artırılabilir.
