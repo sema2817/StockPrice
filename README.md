@@ -66,14 +66,17 @@ Her iki model de kapanış fiyatlarını başarılı şekilde tahmin etmiştir.
 Grafiklerde mavi çizgi gerçek fiyatları, yeşil çizgi LSTM tahminlerini, turuncu çizgi ise GRU tahminlerini göstermektedir.
 Her iki model genel trendi yakalamış, ancak GRU daha hızlı öğrenme eğilimi göstermiştir.
 
+
 ## Kısa Rapor
 Bu çalışma, zaman serisi tahmininde RNN tabanlı modellerin gücünü göstermektedir.
 LSTM ve GRU modelleri, geçmiş 20 günlük kapanış fiyatlarını kullanarak bir sonraki günün fiyatını tahmin etmiştir.
 Sonuçlar, GRU modelinin daha düşük MSE değeriyle LSTM’e göre daha iyi performans sergilediğini ortaya koymuştur.
 
 ## Özetle:
-LSTM MSE ≈ 167.9
-GRU MSE ≈ 115.5
+LSTM MSE ≈ 157.0
+GRU MSE ≈ 92.0
+LSTM RMSE≈ 12.5
+GRU RMSE≈ 9.6
 GRU modeli daha hızlı öğrenmiş ve daha düşük hata oranı elde etmiştir.
 
 ## Geliştirme Önerileri
