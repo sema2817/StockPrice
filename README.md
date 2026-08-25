@@ -37,30 +37,30 @@ Amazon hisse fiyatları verisini (AMZN_2006-01-01_to_2018-01-01.csv) proje dizin
 ### 4. Notebook’u Açın
 StockPrice.ipynb dosyasını açın ve hücreleri sırayla çalıştırın.
 Kod hücreleri sırasıyla:
-  1.Veriyi yükler ve ölçekler
-  2.LSTM ve GRU modellerini tanımlar
-  3.Modelleri eğitir
-  4.Tahminleri ve grafik sonuçlarını üretir
+  1. Veriyi yükler ve ölçekler  
+  2. LSTM ve GRU modellerini tanımlar  
+  3. Modelleri eğitir  
+  4. Tahminleri ve grafik sonuçlarını üretir  
 
 ## Modelleme Yaklaşımı
 
 LSTM Modeli
--Katmanlar: 1 LSTM katmanı + 1 Tam Bağlantılı (FC) katman
--Kayıp Fonksiyonu: Mean Squared Error (MSE)
--Optimizasyon: Adam optimizer (lr=0.001)
+- Katmanlar: 1 LSTM katmanı + 1 Tam Bağlantılı (FC) katman  
+- Kayıp Fonksiyonu: Mean Squared Error (MSE)  
+- Optimizasyon: Adam optimizer (lr=0.001)  
 
 GRU Modeli
--Katmanlar: 1 GRU katmanı + 1 FC katman
--Kayıp Fonksiyonu: MSE
--Optimizasyon: Adam optimizer (lr=0.001)
+- Katmanlar: 1 GRU katmanı + 1 FC katman  
+- Kayıp Fonksiyonu: MSE  
+- Optimizasyon: Adam optimizer (lr=0.001)  
 
 Her iki model de 10 epoch boyunca eğitilmiş, ardından tahminler görselleştirilmiştir.
 
 ## Sonuçlar ve Değerlendirme
--LSTM Modeli MSE: 167.90
--GRU Modeli MSE: 115.50
--GRU modeli, LSTM’e göre daha düşük hata ile daha iyi performans göstermiştir.
--Her iki model de kapanış fiyatlarını başarılı şekilde tahmin etmiştir.
+- LSTM Modeli MSE: 167.90  
+- GRU Modeli MSE: 115.50  
+- GRU modeli, LSTM’e göre daha düşük hata ile daha iyi performans göstermiştir.  
+- Her iki model de kapanış fiyatlarını başarılı şekilde tahmin etmiştir.  
 
 ## Grafik Analizi
 Grafiklerde mavi çizgi gerçek fiyatları, yeşil çizgi LSTM tahminlerini, turuncu çizgi ise GRU tahminlerini göstermektedir.
@@ -73,11 +73,11 @@ LSTM ve GRU modelleri, geçmiş 20 günlük kapanış fiyatlarını kullanarak b
 Sonuçlar, GRU modelinin daha düşük MSE değeriyle LSTM’e göre daha iyi performans sergilediğini ortaya koymuştur.
 
 ## Özetle:
--LSTM MSE ≈ 157.0
--GRU MSE ≈ 92.0
--LSTM RMSE≈ 12.5
--GRU RMSE≈ 9.6
--GRU modeli daha hızlı öğrenmiş ve daha düşük hata oranı elde etmiştir.
+- LSTM MSE ≈ 157.0  
+- GRU MSE ≈ 92.0  
+- LSTM RMSE≈ 12.5  
+- GRU RMSE≈ 9.6  
+- GRU modeli daha hızlı öğrenmiş ve daha düşük hata oranı elde etmiştir.  
 
 ## Geliştirme Önerileri
 -Daha uzun epoch sayısı ile modellerin performansı artırılabilir.
