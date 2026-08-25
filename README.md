@@ -80,6 +80,6 @@ Sonuçlar, GRU modelinin daha düşük MSE değeriyle LSTM’e göre daha iyi pe
 GRU modeli daha hızlı öğrenmiş ve daha düşük hata oranı elde etmiştir.  
 
 ## Geliştirme Önerileri
--Daha uzun epoch sayısı ile modellerin performansı artırılabilir.
--Farklı özellikler (hacim, açılış, en yüksek, en düşük) modele dahil edilerek çok değişkenli tahmin yapılabilir.
--LSTM ve GRU’ya ek olarak Transformer tabanlı modeller denenebilir.
+- Daha uzun epoch sayısı ile modellerin performansı artırılabilir.  
+- Farklı özellikler (hacim, açılış, en yüksek, en düşük) modele dahil edilerek çok değişkenli tahmin yapılabilir.  
+- LSTM ve GRU’ya ek olarak Transformer tabanlı modeller denenebilir.  
