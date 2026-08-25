@@ -31,8 +31,9 @@ pip install numpy pandas matplotlib scikit-learn torch torchvision torchaudio se
 Amazon hisse fiyatları verisini (AMZN_2006-01-01_to_2018-01-01.csv) proje dizininde data/ klasörüne koyun.
 
 ### 3. JupyterLab’i Başlatın
-- bash  
-- jupyter lab  
+``` bash  
+jupyter lab
+```
 
 ### 4. Notebook’u Açın
 StockPrice.ipynb dosyasını açın ve hücreleri sırayla çalıştırın.
